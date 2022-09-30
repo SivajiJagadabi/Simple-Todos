@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-container {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: 60%;
+  min-height: 100px;
+}
+
+h1 {
+  color: #ff8542;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.todo-card {
+  display: flex;
+  flex-direction: column;
+
+  list-style-type: none;
+}
+
+@media screen and (max-width: 576px) {
+  .todo-container {
+    width: 400px;
+  }
+}
